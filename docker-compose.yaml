@@ -2,6 +2,5 @@ version: "3"
 services:
   server:
     build: ./flaskex
-    command: python ./app.py
     ports:
       - "3000:5000"
